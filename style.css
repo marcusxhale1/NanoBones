@@ -1,10 +1,17 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 50px 50px 0 50px;
-  background-color: lightslategray;
+  background-color: #1F2933;
   display: flex;
   flex-direction: column;
   min-height: 95vh;
+}
+
+p{
+  color: #E5E7EB;
+}
+h2{
+  color: #E5E7EB;
 }
 .main {
   flex: 1;
@@ -12,6 +19,7 @@ body {
 
 h1 {
   font-size: 3rem;
+  color: #E5E7EB;
 }
 
 footer {
