@@ -5,32 +5,102 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nano's Nannies</title>
-  <link rel="stylesheet" href="./style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
 </head>
 
 <body>
-  <div class="main">
-    <img class="logo" src="./assets/images/Nano.png" alt="logo">
-    <h1>Premium Nanny Agency in the Bay Area</h1>
-    <div class="left card"><img class="tile-image" src="./assets/images/Family.png" alt="family at a park">
-      <h2 class="card-title">Family Care</h2>
-      <p class="card-text">We strive to create a seamless and safe experience for families by 
-        thoughtfully vetting and matching them with trusted, high-quality nannies.</p>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="./NanoBones/assets/images/Nano.png" height="50" alt="Nano Nannie Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">How it Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">For Families</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">For Nannies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Employee Login</a>
+          </li>
+  </nav>
 
-    <div class="right card"><img class="tile-image" src="./assets/images/NannyChild.png" alt="a nanny taking a picture with child at park">
-      <h2 class="card-title">For Nannies</h2>
-      <p>We strive to connect nannies with families who value their work by carefully matching 
-        each candidate with opportunities that fit their experience, schedule, and goals.</p>
+  <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="./NanoBones/assets/images/Nano.png" alt="logo"
+      width="500" height="500">
+    <h1 class="display-5 fw-bold text-body-emphasis">Connecting Bay Area Families with Trusted Nannies</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Nano’s Nannies helps families find reliable childcare and helps nannies connect with quality
+        opportunities that fit their experience and schedule.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+          class="btn btn-primary btn-lg px-4 gap-3">Find a Nanny</button> <button type="button"
+          class="btn btn-outline-secondary btn-lg px-4">Apply as a Nanny</button> </div>
     </div>
-
   </div>
-  <footer>
-    <p>Vet. Match. Place.</p>
-  </footer>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6"> <img src="./NanoBones/assets/images/Family.png"
+          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Family Care</h1>
+        <p class="lead">We strive to create a seamless and safe experience for families by
+          thoughtfully vetting and matching them with trusted, high-quality nannies.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+            class="btn btn-primary btn-lg px-4 me-md-2">Find a Nanny</button>
+        </div>
+      </div>
+    </div>
+    <div class="row flex-lg-row align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6"> <img src="./NanoBones/assets/images/NannyChild.png"
+          class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">For Nannies</h1>
+        <p class="lead">We strive to connect nannies with families who value their work by carefully matching
+          each candidate with opportunities that fit their experience, schedule, and goals.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+            class="btn btn-primary btn-lg px-4 me-md-2">Find a Family</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-body-secondary">© 2026 Nano's Nannies, Inc</p> <a href="/"
+            class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap"> <img src="./assets/images/Nano.png" height="150" width="150" alt="company logo">
+          </a>
+          <ul class="nav col-md-4 justify-content-end align-items-center">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQ</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">For Families</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">For Nannies</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+          </ul>
+        </footer>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
